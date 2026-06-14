@@ -1,0 +1,44 @@
+@import url("student.css");
+
+.container {
+    width: min(980px, 94vw);
+    text-align: left;
+}
+
+.container h2,
+.container > p {
+    text-align: center;
+}
+
+form {
+    margin-top: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    color: var(--brown-dark);
+    font-weight: 700;
+}
+
+.status-table {
+    display: table;
+    width: 100%;
+}
+
+.small-text {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.link-button {
+    margin-top: 22px;
+}
+
+@media (max-width: 760px) {
+    .status-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

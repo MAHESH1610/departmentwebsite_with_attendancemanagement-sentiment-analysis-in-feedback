@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Computer Science</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20260602">
+</head>
+<body>
+    <header class="site-header">
+        <div class="topbar">
+            <div class="topbar-left">
+                <span class="contact-item"><span class="icon">&#9742;</span> +91 12345 67890</span>
+                <span class="contact-item"><span class="icon">&#9993;</span> info@csdepartment.edu.in</span>
+            </div>
+
+            <div class="topbar-right">
+                <span>Follow Us:</span>
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Twitter">t</a>
+                <a href="#" aria-label="LinkedIn">in</a>
+                <a href="#" aria-label="Instagram">&#9678;</a>
+            </div>
+        </div>
+
+        <nav class="navbar" aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#staff">Staff</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+
+            <div class="login-buttons">
+                <a href="staff-login.html" class="btn btn-outline"><span class="btn-icon">&#9819;</span> Staff Login</a>
+                <a href="student-login.html" class="btn btn-solid"><span class="btn-icon">&#9644;</span> Student Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Welcome To</p>
+                <h1>Department of Computer Science</h1>
+                <span class="title-rule" aria-hidden="true"></span>
+                <p class="hero-copy">
+                    Empowering minds through innovation, research, and technology.
+                    We build the future through quality education and real-world solutions.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-solid">Explore More <span aria-hidden="true">&rarr;</span></a>
+                    <a href="#gallery" class="btn btn-outline btn-video"><span class="play-icon">&#9654;</span> Watch Video</a>
+                </div>
+            </div>
+
+            <div class="hero-image" aria-label="Modern computer science department building"></div>
+        </section>
+
+        <section class="quick-links" aria-label="Department highlights">
+            <a href="#about" class="quick-card">
+                <h2>About Us</h2>
+                <p>Learn more about our vision, mission, and academic focus.</p>
+            </a>
+            <a href="#gallery" class="quick-card">
+                <h2>Gallery</h2>
+                <p>Explore department events, labs, activities, and campus moments.</p>
+            </a>
+            <a href="#achievements" class="quick-card">
+                <h2>Achievements</h2>
+                <p>View student awards, research milestones, and recognitions.</p>
+            </a>
+            <a href="#events" class="quick-card">
+                <h2>Upcoming Events</h2>
+                <p>Check seminars, workshops, competitions, and department activities.</p>
+            </a>
+            <a href="#staff" class="quick-card">
+                <h2>Staff</h2>
+                <p>Meet the faculty members who guide our students and research.</p>
+            </a>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Us</h2>
+            <p>
+                The Department of Computer Science is committed to quality education,
+                innovation, research, and practical problem solving for a technology-driven world.
+            </p>
+        </section>
+
+        <section id="achievements" class="section">
+            <h2 class="section-title">Recent Achievements</h2>
+            <div class="achievement-grid" id="achievementList">
+                <article class="achievement-card">Best Project Award 2025</article>
+                <article class="achievement-card">Top Ranking Department</article>
+                <article class="achievement-card">Research Grant Received</article>
+            </div>
+        </section>
+
+        <section id="events" class="section">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="achievement-grid event-grid" id="eventList">
+                <article class="achievement-card event-card">
+                    <strong>No upcoming events added yet.</strong>
+                    <span>Events added from the HOD dashboard will appear here.</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-tile"></div>
+                <div class="gallery-tile"></div>
+                <div class="gallery-tile"></div>
+                <div class="gallery-tile"></div>
+                <div class="gallery-tile"></div>
+                <div class="gallery-tile"></div>
+            </div>
+        </section>
+
+        <section id="staff" class="section">
+            <h2 class="section-title">Faculty Members</h2>
+            <div class="staff-grid">
+                <article class="staff-card">
+                    <div class="staff-photo"></div>
+                    <h3>Dr. XYZ</h3>
+                    <p>Head of Department</p>
+                </article>
+                <article class="staff-card">
+                    <div class="staff-photo"></div>
+                    <h3>Prof. ABC</h3>
+                    <p>Assistant Professor</p>
+                </article>
+                <article class="staff-card">
+                    <div class="staff-photo"></div>
+                    <h3>Prof. DEF</h3>
+                    <p>Assistant Professor</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Department of Computer Science</h2>
+        <p>Email: info@csdepartment.edu.in</p>
+        <p>Phone: +91 12345 67890</p>
+        <p>&copy; 2026 Department of Computer Science. All Rights Reserved.</p>
+    </footer>
+    <script>
+        fetch("public-content.php")
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                var achievementList = document.getElementById("achievementList");
+                var eventList = document.getElementById("eventList");
+
+                if (data.achievements && data.achievements.length > 0) {
+                    achievementList.innerHTML = "";
+                    data.achievements.forEach(function(item) {
+                        var card = document.createElement("article");
+                        card.className = "achievement-card";
+                        card.innerHTML = renderCardImage(item.image_path) + "<strong>" + escapeHtml(item.title) + "</strong><span>" + escapeHtml(item.description || "") + "</span>";
+                        achievementList.appendChild(card);
+                    });
+                }
+
+                if (data.events && data.events.length > 0) {
+                    eventList.innerHTML = "";
+                    data.events.forEach(function(item) {
+                        var card = document.createElement("article");
+                        card.className = "achievement-card event-card";
+                        card.innerHTML = renderCardImage(item.image_path)
+                            + "<span class=\"event-date\">" + escapeHtml(formatEventDate(item.event_date || "")) + "</span>"
+                            + "<strong>" + escapeHtml(item.title) + "</strong>"
+                            + "<span>" + escapeHtml(item.description || "") + "</span>";
+                        eventList.appendChild(card);
+                    });
+                }
+            });
+
+        function escapeHtml(value) {
+            return String(value)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        function renderCardImage(path) {
+            if (!path) {
+                return "";
+            }
+
+            return '<img class="content-card-image" src="' + escapeHtml(path) + '" alt="">';
+        }
+
+        function formatEventDate(value) {
+            if (!value) {
+                return "Date to be announced";
+            }
+
+            var date = new Date(value + "T00:00:00");
+            if (Number.isNaN(date.getTime())) {
+                return value;
+            }
+
+            return date.toLocaleDateString("en-IN", {
+                day: "2-digit",
+                month: "short",
+                year: "numeric"
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+@import url("staff-dash.css");
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    margin: 10px 0;
+    padding: 14px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    background: #fffaf6;
+    color: var(--text);
+    font: inherit;
+    resize: vertical;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: var(--brown);
+    box-shadow: 0 0 0 4px rgba(148, 51, 0, 0.12);
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-top: 24px;
+}
+
+.panel {
+    margin: 0;
+    text-align: left;
+}
+
+.panel h2 {
+    font-size: 25px;
+}
+
+.mini-card {
+    margin-top: 14px;
+    padding: 16px;
+    border: 1px solid #ead8ce;
+    border-radius: 8px;
+    background: #fffaf6;
+}
+
+.mini-card img,
+.feedback-card video {
+    width: 100%;
+    border-radius: 7px;
+    display: block;
+}
+
+.mini-card img {
+    height: 170px;
+    margin-bottom: 12px;
+    object-fit: cover;
+}
+
+.mini-card h3 {
+    color: var(--brown-dark);
+    font-size: 18px;
+}
+
+table input[type="checkbox"] {
+    width: 20px;
+    min-height: 20px;
+    margin: 0;
+}
+
+.inline-action {
+    margin: 0;
+}
+
+.inline-action button,
+.inline-action .danger-btn {
+    width: auto;
+    min-height: 36px;
+    margin: 0;
+    padding: 8px 14px;
+    display: inline-flex;
+    justify-content: center;
+    border-color: #9b1c1c;
+    background: #9b1c1c;
+    color: #fff;
+}
+
+.inline-action button:hover,
+.inline-action .danger-btn:hover {
+    background: #7f1717;
+}
+
+.file-label {
+    display: block;
+    margin-top: 12px;
+    color: var(--brown-dark);
+    font-weight: 700;
+}
+
+.feedback-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.feedback-card {
+    padding: 18px;
+    border: 1px solid #ead8ce;
+    border-radius: 8px;
+    background: #fffaf6;
+}
+
+.feedback-card h3 {
+    color: var(--brown-dark);
+    font-size: 20px;
+}
+
+.emotion-badge {
+    display: inline-flex;
+    min-height: 28px;
+    padding: 3px 10px;
+    align-items: center;
+    border: 1px solid rgba(148, 51, 0, 0.2);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--brown-dark);
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.feedback-card video {
+    max-height: 260px;
+    margin-top: 12px;
+    background: #211917;
+}
+
+.small-text {
+    font-size: 13px;
+}
+
+.compact-form {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    gap: 14px;
+    align-items: start;
+}
+
+.compact-form button {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 820px) {
+    .dashboard-grid,
+    .feedback-list,
+    .compact-form {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Login - Department of Computer Science</title>
+    <link rel="stylesheet" href="staff-login.css?v=20260602">
+</head>
+<body>
+    <div class="login-box login-wide">
+        <h2>Staff Login</h2>
+        <form action="staff-login.php" method="POST">
+            <input type="text" name="staff_id" placeholder="Staff ID" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Staff Login</button>
+        </form>
+
+        <div class="login-divider">HOD Access</div>
+
+        <form action="hod-login.php" method="POST">
+            <input type="text" name="hod_id" placeholder="HOD ID" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">HOD Login</button>
+        </form>
+
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </div>
+</body>
+</html>

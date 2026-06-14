@@ -1,0 +1,11 @@
+@import url("student.css");
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.box {
+    width: min(480px, 94vw);
+    margin: 0 auto;
+}

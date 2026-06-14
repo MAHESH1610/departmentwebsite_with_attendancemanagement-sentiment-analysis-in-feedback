@@ -1,0 +1,11 @@
+fastapi
+gunicorn==19.9.0
+ipykernel
+matplotlib
+numpy
+opencv-python
+pandas
+pydantic
+scikit-learn
+scipy
+uvicorn
